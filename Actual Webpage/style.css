@@ -1,1 +1,21 @@
 
+body {
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.header {
+    background-color: azure;
+    width: 250px;
+    align-self: center;
+}
+.title {
+    color: crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph-one {
+    background-color: darkgreen;
+    width: 300px;
+    
+}
