@@ -1,21 +1,35 @@
-
 body {
-    background-color: darkgrey;
-    font-family: Arial, Helvetica, sans-serif; 
+  background-color: #272D2D;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
-    background-color: azure;
-    width: 250px;
-    align-self: center;
+  background-color: #EDF5FC;
+  width: 250px;
+  align-self: center;
 }
 .title {
-    color: crimson;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: crimson;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.paragraph-one {
-    background-color: darkgreen;
-    width: 300px;
-    
+.paragraph{
+  background-color: lightgrey;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 15px;
+  color: #23CE6B;
+}
+
+.sankalp {
+  height: 275px;
+  border: double green;
+}
+
+.scheule {
+  border: double;
+}
+
+#one {
+  background-color: lightblue;
 }
