@@ -14,7 +14,7 @@ body {
 
 .paragraph{
   background-color: #5b7e8d;
-  width: 300px;
+  padding-left: 10px;
   border-radius: 5px;
   font-size: 15px;
   color: white;
@@ -47,4 +47,14 @@ body {
   color: lightblue;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: solid white;
+}
+
+.button {
+  background-color: white;
+  color: darkblue;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
 }
