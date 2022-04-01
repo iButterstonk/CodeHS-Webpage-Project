@@ -1,35 +1,50 @@
 body {
-  background-color: #272D2D;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #393d3f;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .header {
-  background-color: #EDF5FC;
-  width: 250px;
-  align-self: center;
+  background-color: #c6c5b9;
+  width: 400px;
 }
 .title {
-  color: crimson;
+  color: darkgreen;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .paragraph{
-  background-color: lightgrey;
+  background-color: #5b7e8d;
   width: 300px;
   border-radius: 5px;
   font-size: 15px;
-  color: #23CE6B;
+  color: white;
 }
 
 .sankalp {
   height: 275px;
-  border: double green;
+  border: double #94acac 7px;
 }
 
-.scheule {
-  border: double;
+.subtitle {
+    color: black;
 }
 
 #one {
-  background-color: lightblue;
+  background-color: #546a7b;
+}
+
+.room {
+  text-align: center;
+}
+
+.class-name {
+  text-align: center;
+}
+
+
+.schedule {
+  background-color: #546a7b;
+  color: lightblue;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: solid white;
 }
