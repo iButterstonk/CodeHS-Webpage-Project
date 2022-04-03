@@ -72,6 +72,7 @@ body {
 .schedule {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 
 .caption {
@@ -82,7 +83,7 @@ body {
   text-align:center;
 }
 
-/* Add a black background color to the top navigation */
+/* Add a background color to the top navigation */
 .topnav {
   background-color: darkgrey;
   overflow: hidden;
@@ -108,6 +109,10 @@ body {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #0da65fb5;
   color: black;
+}
+
+td {
+  text-align: center;
 }
