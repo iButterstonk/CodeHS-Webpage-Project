@@ -114,7 +114,8 @@ body {
   color: black;
 }
 
-td,th {
+td,
+th {
   text-align: center;
   padding: 4px;
 }
@@ -176,6 +177,7 @@ img {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  opacity: 1;
   background-color: black;
 }
 
@@ -230,6 +232,6 @@ img {
 }
 
 .fav-img {
-  width:100%;
+  width: 100%;
   height: 20%;
 }
