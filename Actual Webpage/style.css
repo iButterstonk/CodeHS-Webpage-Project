@@ -120,7 +120,7 @@ th {
   padding: 10px;
   font-size: 20px;
   color: yellowgreen;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 * {
@@ -237,4 +237,8 @@ img {
 .fav-img {
   width: 100%;
   height: 20%;
+}
+
+.bio-link {
+  color: darkblue;
 }
