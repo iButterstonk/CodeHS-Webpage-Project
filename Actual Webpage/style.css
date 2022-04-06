@@ -236,7 +236,7 @@ img {
 
 .fav-img {
   width: 100%;
-  height: 20%;
+  border-radius: 2%;
 }
 
 .bio-link {
