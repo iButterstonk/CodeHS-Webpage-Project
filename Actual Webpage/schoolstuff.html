@@ -1,102 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Bootstrap JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>School Stuff</title>
+  </head>
 
-  <link rel="stylesheet" href="style.css" />
-  <title>School Stuff</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="topnav">
-      <a href="index.html">Home</a>
-      <a href="Aboutme.html">About Me</a>
-      <a href="mycontent.html">Stuff Ive Made</a>
-      <a href="schoolstuff.html" class="active">My Schedule</a>
+  <body>
+    <div class="container">
+      <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="Aboutme.html">About Me</a>
+        <a href="mycontent.html">Stuff Ive Made</a>
+        <a href="schoolstuff.html" class="active">My Schedule</a>
+      </div>
+      <div class="jumbotron">
+        <h1 class="jumbo-title">This is what I do every weekday.</h1>
+        <h4 class="jumbo-subtitle">
+          The commute is pretty fine not that much traffic
+        </h4>
+      </div>
+      <table border="1" class="schedule" class="table">
+        <thead>
+          <tr>
+            <th>Class</th>
+            <th>Period</th>
+            <th>Room</th>
+            <th>Teacher</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="class-name">Spanish</td>
+            <td>1st Period</td>
+            <td class="room">117</td>
+            <td>Sra. Nolte</td>
+          </tr>
+          <tr>
+            <td class="class-name">Wranger Time</td>
+            <td>Wrangler Time</td>
+            <td class="room">212</td>
+            <td>Mrs. Tucker</td>
+          </tr>
+          <tr>
+            <td class="class-name">PE</td>
+            <td>2nd Period</td>
+            <td class="room">The Gym</td>
+            <td>The Coaches</td>
+          </tr>
+          <tr>
+            <td class="class-name">Science</td>
+            <td>3rd Period</td>
+            <td class="room">123</td>
+            <td>Mr. Frank</td>
+          </tr>
+          <tr>
+            <td class="class-name">Math</td>
+            <td>4th Period</td>
+            <td class="room">116</td>
+            <td>Mrs. Vazhappilly</td>
+          </tr>
+          <tr>
+            <td class="class-name">Coding</td>
+            <td>5th Period</td>
+            <td class="room">201</td>
+            <td>Mrs. Resendez</td>
+          </tr>
+          <tr>
+            <td class="class-name">ELA</td>
+            <td>6th Period</td>
+            <td class="room">110</td>
+            <td>Ms. May</td>
+          </tr>
+          <tr>
+            <td class="class-name">US History</td>
+            <td>7th Period</td>
+            <td class="room">202</td>
+            <td>Ms. Swann</td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <p class="caption" style="font-style: normal">Its pretty boring I know</p>
+      <br />
+      <br />
     </div>
-    <div class="jumbotron">
-      <h1 class="jumbo-title">This is what I do every weekday.</h1>
-      <h4 class="jumbo-subtitle">The commute is pretty fine not that much traffic</h4>
-    </div>
-    <table border="1" class="schedule" class="table">
-      <thead>
-        <tr>
-          <th>Class</th>
-          <th>Period</th>
-          <th>Room</th>
-          <th>Teacher</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="class-name">Spanish</td>
-          <td>1st Period</td>
-          <td class="room">117</td>
-          <td>Sra. Nolte</td>
-        </tr>
-        <tr>
-          <td class="class-name">Wranger Time</td>
-          <td>Wrangler Time</td>
-          <td class="room">212</td>
-          <td>Mrs. Tucker</td>
-        </tr>
-        <tr>
-          <td class="class-name">PE</td>
-          <td>2nd Period</td>
-          <td class="room">The Gym</td>
-          <td>The Coaches</td>
-        </tr>
-        <tr>
-          <td class="class-name">Science</td>
-          <td>3rd Period</td>
-          <td class="room">123</td>
-          <td>Mr. Frank</td>
-        </tr>
-        <tr>
-          <td class="class-name">Math</td>
-          <td>4th Period</td>
-          <td class="room">116</td>
-          <td>Mrs. Vazhappilly</td>
-        </tr>
-        <tr>
-          <td class="class-name">Coding</td>
-          <td>5th Period</td>
-          <td class="room">201</td>
-          <td>Mrs. Resendez</td>
-        </tr>
-        <tr>
-          <td class="class-name">ELA</td>
-          <td>6th Period</td>
-          <td class="room">110</td>
-          <td>Ms. May</td>
-        </tr>
-        <tr>
-          <td class="class-name">US History</td>
-          <td>7th Period</td>
-          <td class="room">202</td>
-          <td>Ms. Swann</td>
-        </tr>
-      </tbody>
-    </table>
-    <br>
-    <p class="caption" style="font-style: normal;">Its pretty boring I know</p>
-    <br />
-    <br />
-  </div>
-</body>
-
+  </body>
 </html>
