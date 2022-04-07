@@ -80,15 +80,17 @@ body {
 
 .caption {
   font-style: italic;
+  color: salmon;
+  align-self: center;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  color: salmon;
 }
 
 .caption:hover {
   color: salmon;
   font-style: italic;
+  text-align: center;
 }
 
 /* Add a background color to the top navigation */
@@ -103,10 +105,10 @@ body {
   float: left;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 12px;
   border-radius: 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 /* Change the color of links on hover */
@@ -255,4 +257,18 @@ img {
   color: rgb(170, 93, 226);
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.block {
+  display: block;
+  width: 25%;
+  border: none;
+  background-color: #c5e01a;
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
 }
