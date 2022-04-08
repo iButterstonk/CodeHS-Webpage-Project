@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgb(2, 65, 2);
   font-family: Verdana, sans-serif;
@@ -22,7 +26,7 @@ body {
 }
 
 .sankalp {
-  height: 400px;
+  height: 440px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -263,7 +267,7 @@ img {
   display: block;
   width: 25%;
   border: none;
-  background-color: #c5e01a;
+  background-color: #19c485;
   padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -271,4 +275,21 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+}
+
+.button {
+  background-color: #0a9ae2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  color: white;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #0a9ae2e5;
+  color: white;
+  text-decoration: solid;
 }
