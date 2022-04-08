@@ -54,7 +54,7 @@
           I was born in Iowa and we moved to Texas about 3 months after I was
           born. I live in a house with my 2 parents and my sister. My favorite
           foods are pizza, biryani, good mint chocolate chip ice cream. (yes I
-          know it's the "worse flavor" I dont care.) I like to learn about
+          know it's the "worst flavor" I dont care.) I like to learn about
           things and go down the internet rabbit hole much more frequently than
           I would like to admit.
         </p>
@@ -76,6 +76,31 @@
           piece of Star Wars content possible. <br />(except Resistance,
           Resistance Sucks)
         </p>
+        <button class="accordion">About Me</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+
+        <button class="accordion">Stuff I Like</button>
+        <div class="panel">
+          <p>Lorem ipsum...</p>
+        </div>
+        <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+              } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+              }
+            });
+          }
+        </script>
       </div>
     </div>
   </body>
